@@ -25,3 +25,5 @@ services:
     build: ./teamcity_agent
     env_file: .env
     restart: unless-stopped
+    volumes:
+      - ./mnt/rvm:/usr/local/rvm
