@@ -4,6 +4,10 @@ TIPS
 
 docker-compose up
 
+docker-compose stop
+
+docker-compose build
+
 # sh in container
 
 docker exec -it teamcity_server sh
@@ -39,3 +43,5 @@ fi
 
 bundle exec rspec
 ```
+
+

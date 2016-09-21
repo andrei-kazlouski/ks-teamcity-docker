@@ -27,3 +27,5 @@ RUN /bin/bash -l -c "gem install bundler --no-ri --no-rdoc"
 ## Nodejs engine is used in many projects (e.g. execjs)
 RUN apt-get install -y nodejs npm
 RUN ln -s  /usr/bin/nodejs  /usr/bin/node
+
+RUN apt-get install -y libpq-dev
