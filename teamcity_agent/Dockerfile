@@ -31,3 +31,5 @@ RUN ln -s  /usr/bin/nodejs  /usr/bin/node
 RUN apt-get install -y libpq-dev
 
 RUN apt-get install -y sshpass
+
+RUN apt-get install -y redis-server
