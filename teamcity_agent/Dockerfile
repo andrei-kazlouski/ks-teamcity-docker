@@ -33,3 +33,7 @@ RUN apt-get install -y libpq-dev
 RUN apt-get install -y sshpass
 
 RUN apt-get install -y redis-server
+
+RUN /bin/bash -l -c "rvm install 2.1.5"
+RUN /bin/bash -l -c "rvm use 2.1.5 && gem install bundler --no-ri --no-rdoc"
+
